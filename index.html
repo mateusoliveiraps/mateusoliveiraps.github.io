@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -6,12 +7,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mateus Oliveira CV</title>
 
-    <link rel="stylesheet" href="style.css">
+    <!-- Google font  -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Serif:opsz,wght@8..144,700&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap"
         rel="stylesheet">
 
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -21,7 +28,7 @@
                 <div class="profile">
                     <img class="profile-image" src="img/profile-image.jpg" alt="Profile image">
                     <p class="name">Mateus Oliveira</p>
-                    <p class="profession">Software Engineer</p>
+                    <p class="profession">Desenvolvedor</p>
                 </div>
                 <div class="contact-info">
                     <p class="left-title">Contato</p>
@@ -36,7 +43,7 @@
                     <p class="left-title">Skills</p>
                     <ul>
                         <li>
-                            <p>HTML, CSS, Git & GitHub</p>
+                            <p>HTML, CSS, JavaScript e Git & GitHub</p>
                         </li>
                         <li>
                             <p>SQL Server</p>
@@ -51,67 +58,91 @@
                 <section class="about gap">
                     <div class="right-title">Sobre Mim</div>
                     <p class="about-me-contents">
-                        Olá sou o Mateus.<br>
-                        <br> Um pouco mais sobre o que faço
-                        <br> Quais são minhas competencias
+                        Olá sou o Mateus. Tenho 25 anos e atualmente sou graduando de Engenharia da Computação.<br>
+                        <br> Atualmente trabalho na empresa HIPER Software SA como Analista de Atendimento PL.
+                        <br> Busco uma posição desafiadora em desenvolvimento Full-Stack, Front-end ou Back-End.
                     </p>
                 </section>
+                <section class="experience gap">
+                    <div class="right-title">Experiencia</div>
+                    <div class="experience-contents">
+                        <div class="exp-left">
+                            <p class="exp-company-name">Lacticinios Tirol LTDA</p>
+                            <p class="exp-time-period">2016-2020</p>
+                        </div>
+                        <div class="exp-right">
+                            <p class="exp-position">Analista de Sistemas</p>
+                            <p class="exp-desc">
+                                Atendimento a usuários internos via ticket,
+                                administração de servidores de backup, administração de servidores AD.
+                            </p>
+                        </div>
+                        <div class="exp-left">
+                            <p class="exp-company-name">Universidade do Oeste de Santa Catarina</p>
+                            <p class="exp-time-period">2020-2021</p>
+                        </div>
+                        <div class="exp-right">
+                            <p class="exp-position">Técnico em Informática</p>
+                            <p class="exp-desc">
+                                Atendimento a usuários internos via ticket, administração de servidores AD.
+                            </p>
+                        </div>
+
+                        <div class="exp-left">
+                            <p class="exp-company-name">Hiper Software SA</p>
+                            <p class="exp-time-period">2021-Present</p>
+                        </div>
+                        <div class="exp-right">
+                            <p class="exp-position">Analista de Atendimento PL</p>
+                            <p class="exp-desc">
+                                Atendimento a usuários via zendesk, ajuste de banco de dados via SQL Server,
+                                acesso para resolução de problemas via anydesk.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+                <section class="education gap">
+                    <div class="right-title">Formação Acadêmica</div>
+                    <div class="education-contents">
+                        <div class="education-left">
+                            <p class="education-school-name">UNOESC</p>
+                            <p class="education-time-period">2015~2023</p>
+                        </div>
+                        <div class="education-right">
+                            <p class="education-subject">Engenharia de Computação</p>
+                            <p class="education-desc">
+                                Graduação em Engenharia de Computação
+                            </p>
+                        </div>
+                    </div>
+                </section>
+                <section class="awards gap">
+                    <div class="right-title">Cursos</div>
+                    <div class="awards-contents">
+                        <div class="awards-left">
+                            <p class="awards-company-name">EBAC</p>
+                            <p class="awards-time-period">2022</p>
+                        </div>
+                        <div class="awards-right">
+                            <p class="awards-name">Jornada Dev</p>
+                            <p class="awards-desc">
+                                Curso feito na EBAC no ano de 2022. Entendendo principios básicos de HTML, CSS e Git.
+                            </p>
+                        </div>
+
+                        <div class="awards-left">
+                            <p class="awards-company-name">RocketSeat</p>
+                            <p class="awards-time-period">2022</p>
+                        </div>
+                        <div class="awards-right">
+                            <p class="awards-name">Discover</p>
+                            <p class="awards-desc">
+                                Curso feito na RocketSeat no ano de 2022. Trilha Conectar, nivel básico de HTML e CSS.
+                            </p>
+                        </div>
+                    </div>
+                </section>
             </div>
-            <section class="experience gap">
-                <div class="right-title">Experiencia</div>
-                <div class="experience-contents">
-                    <div class="exp-left">
-                        <p class="exp-company-name">Empresa 01</p>
-                        <p class="exp-time-period">2022-Present</p>
-                    </div>
-                    <div class="exp-right">
-                        <p class="exp-position">Engenheiro de Computação</p>
-                        <p class="exp-desc">
-                            Descreva as principais atividades
-                        </p>
-                    </div>
-                    <div class="exp-left">
-                        <p class="exp-company-name">Empresa 02</p>
-                        <p class="exp-time-period">2021-2022</p>
-                    </div>
-                    <div class="exp-right">
-                        <p class="exp-position">Engenheiro de Software</p>
-                        <p class="exp-desc">
-                            Descreva as principais atividades
-                        </p>
-                    </div>
-                </div>
-            </section>
-            <section class="education gap">
-                <div class="right-title">Formação Acadêmica</div>
-                <div class="education-contents">
-                    <div class="education-left">
-                        <p class="education-school-name">UNOESC</p>
-                        <p class="education-time-period">2021~2023</p>
-                    </div>
-                    <div class="education-right">
-                        <p class="education-subject">Engenharia de Computação</p>
-                        <p class="education-desc">
-                            Graduação em Engenharia de Computação
-                        </p>
-                    </div>
-                </div>
-            </section>
-            <section class="awards gap">
-                <div class="right-title">Cursos</div>
-                <div class="awards-contents">
-                    <div class="awards-left">
-                        <p class="awards-company-name">EBAC</p>
-                        <p class="awards-time-period">Junho de 2018</p>
-                    </div>
-                    <div class="awards-right">
-                        <p class="awards-name">Curso de UX</p>
-                        <p class="awards-desc">
-                            Curso feito na EBAC no ano de 2018.
-                        </p>
-                    </div>
-                </div>
-            </section>
         </section>
     </main>
 </body>
